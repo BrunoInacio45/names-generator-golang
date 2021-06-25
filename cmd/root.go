@@ -32,8 +32,8 @@ var rootCmd = &cobra.Command{
 	Short: "Use this project to generate aleatory names",
 	Long: `Use this project to generate aleatory names. For example:
 
-To generate 4 names with 2 surnames each: names-generator -n 4 -s 2;
-To generate names in English: names-generator -l en;
+To generate 4 names with 2 surnames each: go run main.go generate -n 4 -s 2;
+To generate names in English: names-generator generate -l en;
 
 Obs:
   To create names and surnames in anothers languages, it is necessary create 
